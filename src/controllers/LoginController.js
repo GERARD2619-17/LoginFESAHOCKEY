@@ -1,5 +1,5 @@
 function login(req, res){
-req.render('login/index');
+res.render('login/index');
 }
 
 function register(req, res){

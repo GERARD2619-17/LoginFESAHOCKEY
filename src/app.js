@@ -5,7 +5,7 @@ const mysql = require ('mysql');
 const session = require ('express-session');
 const BodyParse =  require ('body-parser');
 
-const loginRoutes = require ('./routers/login'); 
+const loginRoutes = require ('./routes/login'); 
 
 const app = express();
 app.set('port',4000);
