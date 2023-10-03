@@ -21,12 +21,12 @@ app.use(BodyParse.json());
 
 //conentaremos la base de datos de mysql
 //con el servidor directo de mysql worbech
-/*
+
 app.use(myconnection(mysql, {
     host: '127.0.0.1',
     user: 'root',
-    password: 'adminroot',
-    port: 3308,
+    password: 'josue',
+    port: 3306,
     database: 'nodelogin'
 }));
 
@@ -34,7 +34,7 @@ app.use(session({
     secret: 'secret',
     resave: true,
     saveUninitialized: true
-}));*/
+}));
 
 app.listen(app.get('port'),()=>{
     console.log('Listening on port', app.get('port'));
