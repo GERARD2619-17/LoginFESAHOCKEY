@@ -1,32 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login-FesaHockey</title>
-    <link rel="stylesheet" href="/src/views/login/styles.css">
-</head>
-<body>
-    <div class="box">
-        <span class="borderLine"></span>
-        <form>
-            <h2>Login</h2>
-            <div class="inputBox">
-                <input type="text" required="required">
-                <span>Nombres de usuario</span>
-                <i></i>
-            </div>
-            <div class="inputBox">
-                <input type="password" required="required">
-                <span>Password</span>
-                <i></i>
-            </div>
-            <div class="links">
-                <a href="#">Forgot Password</a>
-                <a href="#">Signup</a>
-            </div>
-            <input type="submit" value="Login">
-        </form>
-    </div>
-</body>
+
+    <title>Tailwind CSS - Template</title>
+    
+    <!-- Tailwind CSS Link -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
+
+    <!-- Fontawesome Link -->
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+ 
+  </head>
+  <body class="bg-gray-200">
+    <!-- document body -->
+
+    <nav class="flex py-5 bg-green-500 text-white px-24">
+        <div class="w-1/2 px-12 mr-auto">
+            <h1 class="text-2x1 font-bold">MY NEW APP</h1>
+        </div>
+
+        <ul class="w-1/2 px-16 ml-auto flex justyfy-end pt-1">
+            <li class="nav-item px-4">
+                <a href="" class="nav-link font-semibold hover:bg-gree-700 py-3 px-4 
+                rounded-md">Login</a>
+            </li>
+
+                        <li class="nav-item px-4">
+                <a href="" class="nav-link font-semibold border-2 border-white py-3 px-4 
+                rounded-md">Register</a>
+            </li>
+        </ul>
+    </nav>
+  
+  {{{body}}}
+  
+  </body>
 </html>
