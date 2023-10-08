@@ -1,4 +1,4 @@
--- Active: 1696311261593@@127.0.0.1@3308@nodelogin
+-- Active: 1696743874977@@127.0.0.1@3306@nodelogin
 drop database if exists nodelogin;
 CREATE DATABASE IF NOT nodelogin;
 
